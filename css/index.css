@@ -153,12 +153,12 @@ margin-bottom: 15px;
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
 margin: 0 auto;
-width: 900px;
+width: 785px;
 }
 nav {
 display: flex;
 justify-content: space-between;
-width: 100%;
+width: 99%;
 padding-top: 20px;
 }
 nav ul {
@@ -170,7 +170,7 @@ nav ul li {
 display: flex;
 text-align: center;
 padding: 10px;
-margin-right: 38px;
+/* margin-right: 38px; */
 }
 nav ul li a {
 text-align: center;
@@ -180,7 +180,7 @@ text-decoration: none;
 nav img {
 height: 100%;
 vertical-align: middle;
-margin-left: 54px;
+margin-left: 52px;
 }
 
 .left-column {
@@ -191,7 +191,7 @@ vertical-align: top;
 .right-column {
 width: 47%;
 display: flex;
-margin-left: 44px;
+margin-left: 40px;
 justify-content: center;
 }
 header {
@@ -271,7 +271,7 @@ margin: 50px 0 90px 0;
 
 @media screen and (max-width: 800px) {
 	body {
-		width: 720px;
+		width: 98%;
 	}
 
 	nav {
@@ -314,5 +314,87 @@ margin: 50px 0 90px 0;
 }
 
 @media (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+
 	
+
+	nav {
+		padding-top: 25px;
+	}
+
+	nav ul {
+		display: block;
+	}
+
+	nav ul li {
+		margin-right: 0;
+		border: 1px solid grey;
+		border-left: none;
+		border-right: none;
+		padding: 22px 0;
+	}
+
+	nav ul li a {
+		font-size: 19px;
+	}
+
+	nav a .logo {
+		margin-left: 0;
+		padding-bottom: 22px;
+	}
+
+	hr {
+		width: 452px;
+	}
+
+	.top-content {
+		width: 452px;
+		display: block;
+		margin: auto;
+	}
+
+	.top-content .left-column, .right-column {
+		display: block;
+		width: 100%;
+		margin: 50px 0 0 0;
+	}
+
+	.middle-img {
+		width: 452px;
+		margin: 0 auto;
+		display: block;
+		margin-top: 56px;
+	}
+
+	.bottom-content {
+		width: 452px;
+		display: block;
+		margin: auto;
+	}
+
+	.bottom-content .first-column {
+		margin: 32px 0 0 0;
+	}
+
+	.bottom-content .first-column, .second-column, .third-column {
+		display: block;
+		width: 100%;
+		margin: 50px 0 0 0;
+	}
+
+	.bottom-content .third-column .content-text {
+		margin-bottom: 40px;
+	}
+
+	.contact {
+		width: 452px;
+		display: block;
+		margin: auto;
+		margin-top: 36px;
+	}
+
 }
+
+/* width: 452px; */
